@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67563" started-at="2021-12-16T17:36:49 IST" finished-at="2021-12-16T17:37:57 IST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="40413" started-at="2021-12-16T17:36:49 IST" finished-at="2021-12-16T17:37:30 IST">
+      <class name="second.testNG.NewTest1">
+        <test-method status="PASS" signature="selectItems()[pri:1, instance:second.testNG.NewTest1@61f8bee4]" name="selectItems" duration-ms="24089" started-at="2021-12-16T17:36:49 IST" description="this test case will select an item" finished-at="2021-12-16T17:37:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItems -->
+        <test-method status="PASS" signature="loginApplication()[pri:0, instance:second.testNG.NewTest1@61f8bee4]" name="loginApplication" duration-ms="24570" started-at="2021-12-16T17:36:49 IST" description="this test case will verify login functionality" finished-at="2021-12-16T17:37:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+      </class> <!-- second.testNG.NewTest1 -->
+      <class name="second.testNG.NewTest1_2">
+        <test-method status="PASS" signature="loginApplication()[pri:0, instance:second.testNG.NewTest1_2@7b49cea0]" name="loginApplication" duration-ms="24570" started-at="2021-12-16T17:36:49 IST" description="this test case will verify login functionality 1_2" finished-at="2021-12-16T17:37:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method status="PASS" signature="selectItems()[pri:1, instance:second.testNG.NewTest1_2@7b49cea0]" name="selectItems" duration-ms="16250" started-at="2021-12-16T17:37:13 IST" description="this test case will select an item 1_2" finished-at="2021-12-16T17:37:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItems -->
+      </class> <!-- second.testNG.NewTest1_2 -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="27122" started-at="2021-12-16T17:37:30 IST" finished-at="2021-12-16T17:37:57 IST">
+      <class name="third.testNG.NewTest2">
+        <test-method status="PASS" signature="loginApplication()[pri:0, instance:third.testNG.NewTest2@7d0587f1]" name="loginApplication" duration-ms="27119" started-at="2021-12-16T17:37:30 IST" description="this test case will verify login functionality_2" finished-at="2021-12-16T17:37:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method status="PASS" signature="selectItems()[pri:1, instance:third.testNG.NewTest2@7d0587f1]" name="selectItems" duration-ms="24022" started-at="2021-12-16T17:37:30 IST" description="this test case will select an item_2" finished-at="2021-12-16T17:37:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItems -->
+      </class> <!-- third.testNG.NewTest2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
